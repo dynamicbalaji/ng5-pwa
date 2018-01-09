@@ -1,0 +1,36 @@
+{
+  "configVersion": 1,
+  "index": "https://dynamicbalaji.github.io/ng5-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://dynamicbalaji.github.io/ng5-pwa/favicon.ico",
+        "https://dynamicbalaji.github.io/ng5-pwa/index.html",
+        "https://dynamicbalaji.github.io/ng5-pwa/inline.c116ddea4a6c8411150a.bundle.js",
+        "https://dynamicbalaji.github.io/ng5-pwa/main.dc9d6e3f0592328b3bb7.bundle.js",
+        "https://dynamicbalaji.github.io/ng5-pwa/polyfills.61df7d7ec492d95bb0b2.bundle.js",
+        "https://dynamicbalaji.github.io/ng5-pwa/styles.404279ddc44484c51527.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://dynamicbalaji.github.io/ng5-pwa/inline.c116ddea4a6c8411150a.bundle.js": "7f2dd706be216e25992599bc9ba0ddbf2d353f99",
+    "https://dynamicbalaji.github.io/ng5-pwa/main.dc9d6e3f0592328b3bb7.bundle.js": "67fd5de93e17bb07f67eddc2669443a8583cb7eb",
+    "https://dynamicbalaji.github.io/ng5-pwa/polyfills.61df7d7ec492d95bb0b2.bundle.js": "ff1216348b48e80e4e810b0f7b785cb69647895a",
+    "https://dynamicbalaji.github.io/ng5-pwa/styles.404279ddc44484c51527.bundle.css": "b51420d9a1cb01c271da256917f320ae0b26a7e2",
+    "https://dynamicbalaji.github.io/ng5-pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://dynamicbalaji.github.io/ng5-pwa/index.html": "b25c647f4d8e3030914f185d87146b463352c3ae"
+  }
+}
