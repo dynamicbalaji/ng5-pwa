@@ -8,4 +8,10 @@
   .mat-card .mat-button {
     margin: 0 auto;
     display: block;
+  }  
+
+@media (max-width: 500px) {
+  .mat-card {
+    width: 90%;
   }
+}
