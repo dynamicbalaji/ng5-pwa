@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { MatToolbarModule, MatCardModule } from '@angular/material';
+import { MatToolbarModule, MatCardModule, MatButtonModule } from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -18,7 +18,7 @@ import { ImgCardComponent } from './img-card/img-card.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatToolbarModule, MatCardModule, 
+    MatToolbarModule, MatCardModule, MatButtonModule,
     ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
