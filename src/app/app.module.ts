@@ -19,7 +19,7 @@ import { ImgCardComponent } from './img-card/img-card.component';
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule, MatCardModule, MatButtonModule,
-    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('/ng5-pwa/ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
